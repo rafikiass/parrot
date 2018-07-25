@@ -1,0 +1,68 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #4CAF50;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-align: center
+}
+
+.App-intro {
+  margin: auto;
+  width: 50%;
+  border: 1px solid grey;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Register-app-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.Api-Key {
+  background-color: grey;
+  color: black;
+  padding: 6px
+}
+
+.Notification-message {
+  margin: auto;
+  width: 50%;
+  border: 1px solid grey;
+  margin-top: 10px;
+  padding: 10px;
+  background: #4CAF50;
+  color: #FFF 
+}
